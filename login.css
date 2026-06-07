@@ -1,0 +1,87 @@
+form{
+    width: 350px;
+    margin: 50px auto;
+    padding: 30px;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+    text-align: center;
+}
+
+form h2{
+    color: #003366;
+    margin-bottom: 20px;
+}
+
+label{
+    display: block;
+    text-align: left;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+input{
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button{
+    width: 100%;
+    padding: 10px;
+    background: #003366;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover{
+    background: #0055aa;
+}
+
+form + a{
+    display: block;
+    text-align: center;
+    margin-top: 15px;
+    text-decoration: none;
+    color: blue;
+    font-weight: bold;
+}
+
+form + a:hover{
+    color: red;
+}
+/* Forget Password */
+.forgot-password{
+    display: block;
+    text-align: right;
+    text-decoration: none;
+    color: #003366;
+    font-size: 14px;
+    margin-top: 10px;
+}
+
+.forgot-password:hover{
+    color: red;
+    text-decoration: underline;
+}
+
+/* Registration */
+.register{
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    background-color: #115320;
+    padding: 10px;
+    border-radius: 5px;
+    font-weight: bold;
+    margin-top: 15px;
+}
+
+.register:hover{
+    background-color: #218838;
+}

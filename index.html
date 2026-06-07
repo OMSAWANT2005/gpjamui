@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+  <meta http-equiv="CONTENT-TYPE" content="text/html; charset=UTF-8">
+  <title>Government Polytechnic Jamui</title>
+  <link rel="icon" type="image/x-icon" href="gpjamyi (1).jpg">
+  <link rel="stylesheet" href="home.css">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+<body>
+  <header>
+    <center>
+     
+  <h1 align="center">
+    <a href="index.html">Government Polytechnic Jamui</a>
+  </h1>
+  <h5 align="center">( Dept. of Science, Technology and Technical Education )</h5>
+    </center>
+  </header>
+  <main>
+    <saction class=navigation>
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="#">Academic</a>
+    <a href="#">Department</a>
+    <a href="#">Notic Board</a>
+    <a href="#">About Us</a>
+    <a href="login.html" class="logni" >Login</a>
+    <a href="registration.html" class="registration" >Registration</a>
+    
+  </nav>
+  </saction >
+    <saction class=notic >
+    <marquee><a href="#">Admission Open</a> | <a href="#">Exam Schedule Released</a> | <a href="#">Scholarship Notice Available </a>
+    </marquee>
+    </saction>
+    <saction>
+    <div class="slider">
+    <img src="ban1.jpg" class="slide active" alt="image 1">
+    <img src="1.jpg" class="slide" alt="image 2">
+    <img src="IMG-20240809-WA0006-scaled.jpg" class="slide" alt="image 3">
+</div>
+    </saction>
+
+ <section class="hero">
+    <h2>Welcome to Government Polytechnic Jamui</h2>
+    <p>Quality Technical Education for Future Engineers</p>
+</section>
+    <saction>
+  <p id="p">Government Polytechnic (GP) Jamui was established by Government of Bihar in 2016 under the Department of Science Technology and Technical Education. Government Polytechnic Jamui is situated on the place of Lord Mahavir. It is one of the fast growing technical institutes in Bihar. It is a fully government polytechnic college managed by the Government of Bihar under administrative control of department of Science Technology and Technical Education, Government of Bihar. The college is AICTE approved and its affiliated to the State Board of Technical Education (SBTE), Bihar, Patna. Government Polytechnic (GP) Jamui presently offers a diploma courses in Five streams of Engineering, civil Engineering, Electrical Engineering, Electronics Engineering, Computer Science Engineering and Mechanical Engineering.
+</p>
+    </saction>
+  </main>
+ <footer>
+    <div class="contact">
+        <h2>Contact Us</h2>
+
+        <p>
+            Government Polytechnic Jamui<br>
+            Kalyanpur, Jamui, Bihar - 811307
+        </p>
+
+        <p>📞 Phone: <a href="tel:+917545938675">+917545938675</a></p>
+
+        <p>✉ Email: <a href="mailto:om.sawant.nwd@gmail.com">om.sawant.nwd@gmail.com</a></p>
+    </div>
+    <div class="social-media">
+      <h2>Follow Us</h2>
+        <a href="https://www.facebook.com/om.sawant.paswan"><i class="fab fa-facebook"></i></a>&nbsp&nbsp
+        <a href="https://x.com/omsawant2007"><i class="fab fa-x"></i></a>&nbsp&nbsp
+        <a href="https://instagram.com/om.sawant.paswan"><i class="fab fa-instagram"></i></a>&nbsp&nbsp
+        <a href="https://www.linkedin.com/in/om-sawant-4b0801385"><i class="fab fa-linkedin"></i></a>&nbsp&nbsp
+        <a href="https://www.youtube.com/channel/Omsawant-b2o"><i class="fab fa-youtube"></i></a>&nbsp&nbsp
+        <a href="https://www.snapchat.com/add/omsawant.paswan"><i class="fab fa-snapchat"></i></a>&nbsp&nbsp
+        <a href="https://www.reddit.com/u/om_sawant_paswan"><i class="fab fa-reddit"></i></a>&nbsp&nbsp
+        <a href="https://www.tumblr.com/om-sawant-paswan"><i class="fab fa-tumblr"></i></a>
+    </div>
+</footer>
+  <script>
+let slides = document.querySelectorAll(".slide");
+let current = 0;
+
+setInterval(() => {
+    slides[current].classList.remove("active");
+    current = (current + 1) % slides.length;
+    slides[current].classList.add("active");
+}, 3000);
+</script>
+</body>
+</html>

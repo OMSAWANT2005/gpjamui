@@ -1,0 +1,143 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, sans-serif;
+}
+header{
+    background-image: url("gpjamyi (1).jpg");
+    background-repeat: no-repeat;
+    background-position: left center;
+    background-size: 120px 120px; /* Image size */
+    background-color: white;
+    padding: 30px 30px 30px 140px; /* Left space for image */
+}
+
+main{
+  background-color: beige;
+  color: black;
+  padding: 30px;
+    border: 30px;
+}
+h1 a{
+        
+  color: blue;
+  text-decoration: none;
+  font-size: 50px;
+  font-family: arial;
+    margin: 10px;
+    padding: 10px;
+    }
+
+nav{
+    display: flex;
+    align-items: center;
+    background-color: #003366;
+    padding: 10px;
+}
+
+nav a{
+    color: white;
+    text-decoration: none;
+    padding: 10px 15px;
+}
+
+nav a:hover{
+    background-color: #0055aa;
+    border-radius: 5px;
+}
+
+.logni{
+    margin-left: auto;
+}
+marquee{
+  background-color: whitesmoke;
+  padding: 7px;
+  
+}
+marquee a{
+  text-decoration: none;
+  color: red;
+  padding: 10px;
+}
+main{
+  padding: 0px 0px 100px;
+  background-size: cover;
+}
+.slider{
+  position: relative;
+  width: 100%;
+  height: 400px;
+  overflow: hidden;
+}
+.slide{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  opacity: 0;
+  transition: opacity 1s ease-in-out;
+}
+.slide.active{
+  opacity: 1;
+}
+.hero{
+  text-align: center;
+  padding: 50px;
+}
+#pa{
+  font-size: 30px;
+}
+p{
+  font-size: 25px;
+    margin: 10px;
+}
+footer{
+    background-color: #003366;
+    color: white;
+    padding: 30px 20px;
+    text-align: center;
+    margin-top: 30px;
+}
+
+footer h2{
+    font-size: 28px;
+    margin-bottom: 15px;
+}
+
+footer p{
+    font-size: 16px;
+    margin: 8px 0;
+}
+
+footer a{
+    color: #ffd700;
+    text-decoration: none;
+}
+
+footer a:hover{
+    text-decoration: underline;
+}
+
+.contact a{
+    color: white;
+    text-decoration: none;
+}
+.contact a:hover{
+    text-decoration: none;
+    color: #ffd700;
+}
+
+.social-media{
+   text-align: center;
+   margin-top: 10px;
+}
+.social a{
+  font-size: 30px;
+  margin: 0 10px;
+  color: white;
+  text-decoration: none;
+}
+.social a:hover{
+  color: #e6e5e0;
+}
