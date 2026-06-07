@@ -1,4 +1,4 @@
-.electronics{
+.electrical{
     width: 100%;
     height: 100%;
     text-align: center;
@@ -18,14 +18,14 @@ div h3{
     color: #110959f1;
     margin-bottom: 20px;
 }
-div .electronics-description{
-    text-align:justify;
+div .electrical-description{
+    text-align: justify;
     font-size: 30px;
     color: #000000;
     margin-bottom: 30px;
     padding: 0px 100px 0px 100px;
 }
- .electronics .electronics-title{
+ .electrical .electrical-title{
     color: #121c27;
     border-radius: 5%;
    background: rgb(212, 136, 136);
