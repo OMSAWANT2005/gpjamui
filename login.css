@@ -1,7 +1,7 @@
 form{
-    width: 350px;
+    width: 400px;
     margin: 50px auto;
-    padding: 30px;
+    padding: 20px;
     background: white;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0,0,0,0.2);
@@ -14,6 +14,7 @@ form h2{
 }
 
 label{
+    padding: 1px 10px 0px 20px;
     display: block;
     text-align: left;
     font-weight: bold;
@@ -21,7 +22,7 @@ label{
 }
 
 input{
-    width: 100%;
+    width: 90%;
     padding: 10px;
     border: 1px solid #ccc;
     border-radius: 5px;

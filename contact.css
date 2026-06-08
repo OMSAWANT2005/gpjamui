@@ -1,0 +1,30 @@
+.contact {
+    background-color: #8fbfc4;
+    padding: 20px;
+    border-radius: 30px;
+    margin: 100px auto;
+    width: 80%;
+}
+.contact h1{
+    color: #003366;
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+.contact p{
+    font-size: 18px;
+    line-height: 1.6;
+    color: #372a2a;
+    margin-bottom: 10px;
+}
+.phone2 {
+    color: #051c4a;
+}
+.email2 {
+    color: #051c4a;
+}
+.phone1 {
+    color: #f9f9f9;
+}
+.email1 {
+    color: #f9f9f9;
+}

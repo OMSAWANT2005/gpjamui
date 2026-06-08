@@ -21,7 +21,17 @@
   <main>
   <nav>
     <a href="index.html">Home</a>
-    <a href="#">Academic</a>
+    <!--Academic -->
+    <div class="dropdown">
+      <a href="#">Academic</a>
+      <div class="dropdown-content">
+        <a href="admission.html">Admission</a>
+        <a href="curriculum.html">Curriculum</a>
+        <a href="research.html">Research</a>
+        <a href="alumni.html">Alumni</a>
+      </div>
+    </div>
+    <!--Department-->
     <div class="dropdown">
       <a href="#">Department</a>
       <div class="dropdown-content">
@@ -32,10 +42,26 @@
         <a href="mechanical.html">Mechanical Engineering</a>
       </div>
     </div>
-    <a href="#">Notic Board</a>
-    <a href="#">About Us</a>
+    <!--Notice Board-->
+    <div class="dropdown">
+      <a href="#">Notice Board</a>
+      <div class="dropdown-content">
+        <a href="notice.html">Latest Notices</a>
+        <a href="events.html">Upcoming Events</a>
+      </div>
+    </div>
+    <!--About Us-->
+    <div class="dropdown">
+      <a href="#">About Us</a>
+      <div class="dropdown-content">
+        <a href="history.html">Our History</a>
+        <a href="mission.html">Mission & Vision</a>
+        <a href="faculty.html">Faculty & Staff</a>
+        <a href="campus.html">Campus Facilities</a>
+        <a href="contact.html">Contact Information</a>
+      </div>
+    </div>
     <a href="login.html" class="logni" >Login</a>
-    <a href="registration.html" class="registration" >Registration</a>
     
   </nav>
   <saction>
@@ -44,12 +70,18 @@
        <h2 align="center">Registration Form</h2>
       <label for="full_name">Full Name:<font color="red">*</font><br></label>
       <input type="text" name="full_name" placeholder="Enter your Full Name" required>&nbsp&nbsp
+
       <label for="dcece_regidtration_no">DCECE Registration No:<font color="red">*</font><br></label>
       <input type="text" name="dcece_regidtration_no" placeholder="Enter your DCECE Registration No" required><br><br>
+
       <label for="father_name">Father Name:<br></label>
       <input type="text" name="father_name" placeholder="Enter your Father Name" required><br><br>
+
       <label for="mother_name">Mother Name:<font color="red">*</font><br></label>
-      <input type="text" name="mother_name" placeholder="Enter your Mother Name" required><br><br>  
+      <input type="text" name="mother_name" placeholder="Enter your Mother Name" required><br><br> 
+        <label for="aadhar_no">Aadhar No:<font color="red">*</font><br></label>
+      <input type="number" name="aadhar_no" placeholder="Enter your Aadhar No" required><br><br>
+       
       <label >Gender:<font color="red">*</font><br></label>
       <div class="gender">
         <label>

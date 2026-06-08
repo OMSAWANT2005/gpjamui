@@ -21,7 +21,17 @@
   <main>
   <nav>
     <a href="index.html">Home</a>
-    <a href="#">Academic</a>
+    <!--Academic -->
+    <div class="dropdown">
+      <a href="#">Academic</a>
+      <div class="dropdown-content">
+        <a href="admission.html">Admission</a>
+        <a href="curriculum.html">Curriculum</a>
+        <a href="research.html">Research</a>
+        <a href="alumni.html">Alumni</a>
+      </div>
+    </div>
+    <!--Department-->
     <div class="dropdown">
       <a href="#">Department</a>
       <div class="dropdown-content">
@@ -32,15 +42,31 @@
         <a href="mechanical.html">Mechanical Engineering</a>
       </div>
     </div>
-    <a href="#">Notic Board</a>
-    <a href="#">About Us</a>
-    <a href="login.html" class="logni" >Login</a>
-    <a href="registration.html" class="registration" >Registration</a>
-    
+    <!--Notice Board-->
+    <div class="dropdown">
+      <a href="#">Notice Board</a>
+      <div class="dropdown-content">
+        <a href="notice.html">Latest Notices</a>
+        <a href="events.html">Upcoming Events</a>
+      </div>
+    </div>
+    <!--About Us-->
+    <div class="dropdown">
+      <a href="#">About Us</a>
+      <div class="dropdown-content">
+        <a href="history.html">Our History</a>
+        <a href="mission.html">Mission & Vision</a>
+        <a href="faculty.html">Faculty & Staff</a>
+        <a href="campus.html">Campus Facilities</a>
+        <a href="contact.html">Contact Information</a>
+      </div>
+    </div>
+       
   </nav>
     <saction>
     <form action="#" method="post" align="center">
-      <h2>Governmen Polytechnic Jamui <br>Student Login </h2><br>
+      <h2>Government Polytechnic Jamui</h2>
+      <h2>Student Login </h2>
       <label for="sbte_registration_no: ">SBTE Registration No:<br></label>
       <input type="number" name="sbte_registration_no" placeholder="Enter your Registration Number" required><br><br>
       <label for="password">Password:<br></label>

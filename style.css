@@ -84,6 +84,11 @@ marquee a{
   color: red;
   padding: 10px;
 }
+body{
+  width: 90;
+  height: 90;
+  
+}
 main{
   padding: 0px 0px 100px;
   background-size: cover;
@@ -117,6 +122,7 @@ p{
     margin: 10px;
 }
 footer{
+  
     background-color: #003366;
     color: white;
     padding: 30px 20px;
