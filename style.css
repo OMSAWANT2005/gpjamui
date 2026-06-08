@@ -171,3 +171,69 @@ footer a:hover{
 .social a:hover{
   color: #e6e5e0;
 }
+/* Mobile Responsive */
+
+@media screen and (max-width: 768px){
+
+    nav{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    nav a{
+        display: block;
+        width: 100%;
+        text-align: center;
+        padding: 10px;
+    }
+
+    .slider{
+        height: 220px;
+    }
+
+    .hero h2{
+        font-size: 24px;
+    }
+
+    .hero p{
+        font-size: 16px;
+    }
+
+    #p{
+        font-size: 15px;
+        padding: 10px;
+    }
+
+    form{
+        width: 95% !important;
+        margin: 10px auto;
+        padding: 15px;
+        box-sizing: border-box;
+    }
+
+    input,
+    select,
+    textarea{
+        width: 100% !important;
+        box-sizing: border-box;
+    }
+
+    .gender{
+        flex-wrap: wrap;
+        gap: 10px;
+    }
+
+    footer{
+        padding: 15px;
+    }
+
+    .social-media a{
+        font-size: 22px;
+        margin: 5px;
+    }
+
+    img{
+        max-width: 100%;
+        height: auto;
+    }
+}
